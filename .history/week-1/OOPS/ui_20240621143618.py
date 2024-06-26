@@ -8,7 +8,7 @@ class Character:
         print(f"{self.name} attacks {other_character.name} for {self.attack_power} damage.")
     def is_alive(self):
         return self.health > 0
-    
+
     def __str__(self):
         return f"{self.name} (Health: {self.health}, Attack Power: {self.attack_power})"
 class Player(Character):
